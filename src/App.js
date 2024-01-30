@@ -1,5 +1,5 @@
 import "./App.css";
-//import image from "./logo.jpg";
+import image from "./logo.jpg";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
@@ -25,8 +25,10 @@ const App = () => {
     <>
       <div className="container">
         <h2>Speech to Text Converter</h2>
-        {/* <div className="image"><img src={image} alt="logo" /></div> */}
-        
+        <div className="image">
+          <img src={image} alt="logo" />
+        </div>
+
         <br />
         <p>
           {" "}

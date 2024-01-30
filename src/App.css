@@ -30,13 +30,15 @@ h2 {
   font-size: 48px;
   letter-spacing: -0.2px;
   font-family: "Merriweather", serif;
+  padding-bottom: -100px;
+  margin-bottom: -50px;
 }
 
 p {
   max-width: 50rem;
   text-align: center;
-  margin-top: 24px;
-  margin-bottom: 100px;
+  margin-top: 1px;
+  margin-bottom: 30px;
 }
 
 .main-content {
@@ -70,10 +72,12 @@ p,
   display: flex;
 
 }
-
-.container,image{
-  width: 1100;
+.image{
+  width:auto;
+  margin:100px;
 }
+
+
 
 
 button {
@@ -81,7 +85,7 @@ button {
   background: rgb(4, 52, 63);
   color: rgb(255 255 255);
   border-radius: 0px;
-  padding: 16px 32px;
+  padding: 20px 40px;
   border: yellowgreen;
   font-size: 18px;
   letter-spacing: 1px;
